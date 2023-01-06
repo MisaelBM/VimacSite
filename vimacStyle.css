@@ -1,0 +1,203 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.iconW {
+    margin-left: 1rem
+}
+.menu {
+    border: 2px solid black;
+    position: fixed;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.linha1, .linha2, .linha3{
+    width: 45px;
+    height: 10px; 
+    background-color: black;
+    margin: 6px;
+    border-radius: 5px;
+}
+@media(max-width: 580px) {
+    .linha1, .linha2, .linha3{
+        width: 50px;
+        height: 10px; 
+        background-color: black;
+        margin: 6px;
+        border-radius: 5px;
+    }  
+    .linha1, .linha2, .linha3{
+        width: 25px;
+        height: 5px; 
+        background-color: black;
+        margin: 6px;
+        border-radius: 5px;
+    }
+}
+.menuCheck {
+    display: none;
+}
+.itemLi {
+    text-decoration: none;
+    color: black;
+}
+.liStyle {
+    list-style-type: none;
+}
+.navStyle {
+    border: 1px solid black;
+    position: fixed;
+    padding: 10px;
+    margin-left: 0.5rem;
+    margin-top: 4.3rem;
+    width: 180px;
+    background-color: rgb(226, 224, 224);
+    border-radius: 5px;
+    display: none;
+}
+@media(max-width: 580px) {
+    .navStyle {
+        border: 1px solid black;
+        position: fixed;
+        padding: 10px;
+        margin-left: 0.5rem;
+        margin-top: 4.3rem;
+        width: 180px;
+        background-color: rgb(226, 224, 224);
+        border-radius: 5px;
+        display: none;
+    }
+    .navStyle {
+        border: 1px solid black;
+        position: fixed;
+        padding: 10px;
+        margin-left: 0.5rem;
+        margin-top: 3.3rem;
+        width: 180px;
+        background-color: rgb(226, 224, 224);
+        border-radius: 5px;
+        display: none;
+    }   
+}
+.inicio {
+    width: 100%;
+    height: 600px;
+    background-color: slategray;
+    text-align: center;
+}
+.vimac {
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+.vimacSub {
+    padding: 0;
+    margin-top: -2rem;
+    text-decoration: underline;
+}
+.descriçao {
+    margin-top: 3rem;
+    font-size: 30px;
+}
+@media(max-width: 580px) {
+    .vimac {
+        font-size: 100px;
+    }   
+    .vimac {
+        font-size: 50px;
+    }
+}
+.img2, .img3, .img4, .img5, .img6 {
+    display: none;
+}
+.caixaImg {
+    text-align: center;
+    border: 2px solid black;
+    width: 359px;
+    height: 269px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgDisplay {
+    position: absolute;
+    margin-left: 8rem;
+    border: 2px solid black;
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: -2rem;
+    z-index: 1000;
+    background-color: rgb(110, 110, 110);
+    overflow: hidden;
+}
+.imgCarrega {
+    background-color: #fff;
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 0rem;
+    border-radius: 5px;
+    animation: imgCarrega 4s infinite;
+}
+@keyframes imgCarrega {
+    from {
+        margin-left: -7rem;
+    }
+    to {
+        margin-left: 0rem;
+    }
+
+}
+.serviços {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: dimgray;
+}
+.liServiço {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+    box-shadow: 5px 10px 10px;
+    background-color: #fff;
+}
+.TitServiço {
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 3px 6px 6px;
+}
+.contatos {
+    background-color: darkslategray;
+    padding: 10px;
+}
+.TitContatos {
+    text-align: center;
+    background-color: #fff;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.email {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 60px;
+}
